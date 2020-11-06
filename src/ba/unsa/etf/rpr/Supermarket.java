@@ -5,7 +5,7 @@ public class Supermarket {
     int vel = 0;
 
     public boolean dodajArtikl(Artikl artiklo) {
-        if (vel > 1000)
+        if (vel > 50)
             return false;
         artikli[vel] = artiklo;
         vel+=1;
